@@ -1,0 +1,21 @@
+{
+  "name": "pinoox/installer-plugin-composer",
+  "type": "composer-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {"Pinoox\\Composer\\": "src/composer/"}
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.x-dev"
+    },
+   "class": "Pinoox\\Composer\\InstallerPlugin"
+  },
+  "require": {
+    "composer-plugin-api": "^2.1"
+  },
+  "require-dev": {
+    "composer/composer": "^2.1"
+  },
+  "minimum-stability": "dev"
+}
